@@ -16,6 +16,7 @@ function draw() {
   noStroke();
   fill(200, 190, 190);
   ellipse(xpos, ypos, radius, radius);
+  getAudioContext().resume();
 }
 
 function touchStarted() {
